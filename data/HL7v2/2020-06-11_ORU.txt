@@ -1,0 +1,23 @@
+MSH|^~\&|SLIMS||SLIMS_PROD||20200608130341||ORU^R01|12345|P|2.4|1
+PID||5520005629|0102163||JINDAL^ASHOKI KR^^||19490901|M
+PV1||I|SWB RESPIRATORY HDU^RM-1382^RHDU-06
+ORC|SC|5520005629|5520005629||CM||||||||||||||
+OBR|1|5520005629|5520005629|M991^BacT/Alert aerobic culture ( Blood ) - L^L|||20200608125500|||||||20200121000000
+OBX|1|ST|M0196^Comments^L||Bacterial growth of doubtful significance.|||L|||P
+OBX|2|ST|M0922^LEFT PERIPHERAL SAMPLE^L||Negative|||L|||P
+OBX|3|ST|M0923^RIGHT PERIPHERAL SAMPLE^L||Positive|||L|||P
+OBX|4|ST|M0925^DIALYSIS CATHETER SAMPLE^L||Positive|||L|||P
+OBX|5|TX|M1678^Organism^L|1|E. coli|||L|||P
+OBX|6|TX|TET^Tetracycline^L|1|Moderate Sensitive|||L|||P
+OBX|7|TX|CAR^Carbapenemase^L|2|Sensitive|||L|||P
+OBX|8|TX|CEF^Cefepime^L|3|Moderate Sensitive|||L|||P
+OBX|9|TX|CEF^Cefazolin^L|4|Resistant|||L|||P
+OBX|10|TX|COL^Colistin^L|5|Moderate Sensitive|||L|||P
+OBX|11|TX|ERT^Ertapenem^L|6|Resistant|||L|||P
+OBX|12|TX|ESB^ESBL^L|7|Moderate Sensitive|||L|||P
+OBX|13|TX|M2009^Organism^L|2|Streptococcus salivarius|||L|||P
+OBX|14|TX|TET^Tetracycline^L|1|Sensitive|||L|||P
+OBX|15|TX|CAR^Carbapenemase^L|2|Moderate Sensitive|||L|||P
+OBX|16|TX|CEF^Cefepime^L|3|Sensitive|||L|||P
+OBX|17|TX|CEF^Cefazolin^L|4|Resistant|||L|||P
+OBX|18|TX|COL^Colistin^L|5|Resistant|||L|||P0

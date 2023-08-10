@@ -29,4 +29,6 @@
 
     do $System.OBJ.LoadDir("/opt/irisapp/src","ck",,1)
     zpm "install fhir-portal"
+    zpm "install irishealth-ensdemo"
+
     halt
