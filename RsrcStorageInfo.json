@@ -1,0 +1,38 @@
+{
+    "fhir_endpoint_url": "/fhir/r4",
+    "db_info": {
+        "default_db_name": "FHIRSERVER",
+        "default_db_dir": "/usr/irissys/mgr/FHIRSERVER/",
+        "fhir_resource_db_name": "FHIRSERVERX0001R",
+        "fhir_resource_db_dir": "/usr/irissys/mgr/FHIRSERVERX0001R/",
+        "fhir_version_db_name": "FHIRSERVERX0001V",
+        "fhir_version_db_dir": "/usr/irissys/mgr/FHIRSERVERX0001V/"
+    },
+    "global_info": [
+        {
+            "class_name": "HSFHIR.X0001.R.Rsrc",
+            "global_name": "^HSF01R.RsrcD",
+            "location_type": [
+                "DataLocation",
+                "IdLocation"
+            ],
+            "has_data": false
+        },
+        {
+            "class_name": "HSFHIR.X0001.R.Rsrc",
+            "global_name": "^HSF01R.RsrcI",
+            "location_type": [
+                "IndexLocation"
+            ],
+            "has_data": false
+        },
+        {
+            "class_name": "HSFHIR.X0001.R.Rsrc",
+            "global_name": "^HSF01R.RsrcS",
+            "location_type": [
+                "StreamLocation"
+            ],
+            "has_data": false
+        }
+    ]
+}
