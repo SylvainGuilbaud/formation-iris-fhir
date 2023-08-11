@@ -10,7 +10,7 @@ Parameter EMAILADDRESS = "<your email address>";
 
 Parameter URL = "/fhir/r4";
 
-Parameter TaskName = "Purge all resources from the FHIR server ";
+Parameter TaskName = "Purge FHIR server ";
 
 Property baseURL As %String [ InitialExpression = "/fhir/r4" ];
 
@@ -42,7 +42,7 @@ ClassMethod ScheduleTask(name As %String = "") As %Status
         #; do task.EmailOnCompletion.Insert(..#EMAILADDRESS)
         #; do task.EmailOnError.Insert(..#EMAILADDRESS)
         set task.TaskClass = "FHIR.tasks.purge"
-        set task.Description = ..#TaskName _ ..#URL
+        set task.Description = "Purge all resources from the FHIR server " _ ..#URL
         set task.Settings = $lb("serviceName","service "_task.TaskClass)
 		set task.Type=2
 

@@ -4,8 +4,9 @@ services:
     build: 
       context: .
       dockerfile: Dockerfile
+    container_name: formation-iris-fhir
+    hostname: formation-iris-fhir
     restart: always
-#   command: --check-caps false
     ports: 
       - 10000:1972
       - 10001:52773

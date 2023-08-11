@@ -18,7 +18,7 @@ ClassMethod purge(pServiceName As %String = "/fhir/r4") As %Status
 }
 
 /// Load resources in the FHIR Server
-ClassMethod load(pInputDirectory As %String = "/opt/irisapp/fhirdata/", pServiceType As %String = "FHIRServer", pServiceName As %String = "/fhir/r4", pDisplayProgress As %Boolean = 1) As %Status
+ClassMethod load(pInputDirectory As %String = "/data/fhir/", pServiceType As %String = "FHIRServer", pServiceName As %String = "/fhir/r4", pDisplayProgress As %Boolean = 1) As %Status
 {
     Try {
         set sc = $$$OK
